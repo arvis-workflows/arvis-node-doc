@@ -1,0 +1,29 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
+    "creator": "igyubong",
+    "name": "arvis-node-doc",
+    "enabled": true,
+    "description": "",
+    "readme": "",
+    "version": "0.0.1",
+    "webAddress": "",
+    "defaultIcon": "icon.png",
+    "commands": [
+        {
+            "type": "scriptFilter",
+            "title": "Search Node Documentations",
+            "command": "nd",
+            "scriptFilter": "node index.js '{query}'",
+            "runningSubtext": "Hold on a sec until script work is done...",
+            "argType": "optional",
+            "withspace": true,
+            "actions": [
+                {
+                    "type": "open",
+                    "modifiers": "normal",
+                    "target": "{query}"
+                }
+            ]
+        }
+    ]
+}
