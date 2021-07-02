@@ -3,10 +3,10 @@
     "creator": "igyubong",
     "name": "arvis-node-doc",
     "enabled": true,
-    "description": "",
+    "description": "Search for Node.js documentation in Arvis",
     "readme": "",
-    "version": "0.0.1",
-    "webAddress": "",
+    "version": "1.0.1",
+    "webAddress": "https://github.com/jopemachine/arvis-node-doc",
     "defaultIcon": "icon.png",
     "commands": [
         {
